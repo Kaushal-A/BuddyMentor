@@ -286,7 +286,6 @@ header .fa-bars{
   flex-wrap: wrap;
   padding:2rem 0;
 }
-
 .teacher .card-container .card{
   padding:2rem;
   margin: 2rem;
@@ -304,10 +303,12 @@ header .fa-bars{
   transition: .2s;
 }
 
-.teacher .card-container .card:hover img{
-  filter: grayscale(0);
+.card:hover img{
+  zoom: 90%;
 }
-
+.card:hover h3{
+  zoom: 90%;
+}
 .teacher .card-container .card h3{
   color:var(--pink);
   font-size: 2rem;
